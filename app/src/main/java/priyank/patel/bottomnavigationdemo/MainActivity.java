@@ -1,7 +1,6 @@
 package priyank.patel.bottomnavigationdemo;
 
 import android.support.design.widget.BottomNavigationView;
-import android.support.design.widget.NavigationView;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
@@ -35,8 +34,8 @@ public class MainActivity extends AppCompatActivity {
                             case R.id.action_favorites:
                                 fragment = new FavouriteFragment();
                                 break;
-                            case R.id.action_schedules:
-                                fragment = new SchedulesFragment();
+                            case R.id.action_video:
+                                fragment = new VideoFragment();
                                 break;
                             case R.id.action_music:
                                 fragment = new MusicFragment();

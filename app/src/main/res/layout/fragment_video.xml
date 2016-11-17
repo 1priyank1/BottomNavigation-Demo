@@ -6,7 +6,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Schedules"
+        android:text="@string/text_video"
         android:textStyle="bold"
         android:layout_gravity="center"/>
 </FrameLayout>
